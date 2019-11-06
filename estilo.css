@@ -1,0 +1,9 @@
+.imagem-carrossel {
+
+	object-fit: cover; /*fit=comportamento em relacao ao container,  cover preencher todo espaço do containe preservando a proporcao da imagem*/
+    object-position:0 80%; /*0 = posicao no exixo x esquerda pra direita  e o 80 eixo y debaixo pra em cima */
+    height: 400px;
+}
+.fonte-titulo{
+	font-family: 'Pacifico', cursive;
+}

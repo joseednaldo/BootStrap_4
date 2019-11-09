@@ -7,3 +7,29 @@
 .fonte-titulo{
 	font-family: 'Pacifico', cursive;
 }
+.cor-especial{
+	color: darkred!important;
+	/*important , muito cuidado ao usar esse counter-reset: curso pois pode bagunçar no site, porem usamos para tornar no estilo mais intante que do bootstrap, ou seja ele ignora o estilo do bootstrap*/
+}
+
+.botao-cor-especial{
+	background-color: darkred;
+	color: white;
+}
+
+.borda-cor-especial{
+	border-color: darkred;
+}
+
+.card-largura{
+	max-width: 18rem
+}
+
+.card-posicao-img{
+	object-fit: cover; /*fit=comportamento em relacao ao container,  cover preencher todo espaço do containe preservando a proporcao da imagem*/
+    height: 200px;
+}
+
+#cor-titulo {
+  color: #8D0606;
+}
